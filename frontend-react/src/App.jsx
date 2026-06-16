@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./App.css";
 import { Header } from "./components/Header";
 import { QuestionBox } from "./components/QuestionBox";
 import { ResponsePanel } from "./components/ResponsePanel";
+import "./App.css";
 
 function App() {
   // Estados para la pregunta guarda lo que el usuario escribe en el input de pregunta
