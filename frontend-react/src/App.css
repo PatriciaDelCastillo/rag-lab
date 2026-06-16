@@ -1,0 +1,48 @@
+/*Archivo de estilos CSS para la aplicación RAG Lab, que define el diseño y la apariencia de los componentes de la interfaz de usuario
+El archivo App.css contiene estilos para la estructura general de la aplicación, incluyendo el contenedor principal, los encabezados,
+los paneles, los campos de entrada y los botones*/
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.panel {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+ul {
+  
+  text-align: left;
+  padding-left: 20px;
+}
